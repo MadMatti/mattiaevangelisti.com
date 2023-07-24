@@ -1,0 +1,82 @@
+baseURL = "http://www.example.com"
+title = "Mattia Evangelisti"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+paginate = 20
+
+disqusShortname = "mevangelisti"
+
+[markup.highlight]
+style = "catppuccin-mocha"
+
+[params]
+  author = "Mattia Evangelisti"
+  info = "Data Engineer | MSc Data Science"
+  description = "Mattia Evangelisti's personal website"
+  keywords = "blog,developer,personal"
+  avatarURL = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/johndoe/"
+
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/johndoe/"
+  
+[[params.social]]
+  name = "Mail"
+  icon = "fa fa-envelope fa-2x"
+  weight = 3
+  url = "mailto:john.doe@example.com"
+  
+[[params.social]]
+  name = "CV"
+  icon = "fa fa-file-text fa-2x"
+  weight = 4
+  url = "/path-to-your-cv.pdf"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url  = "about/"
+  
+[[menu.main]]
+  name = "Education"
+  weight = 2
+  url = "education/"
+  
+[[menu.main]]
+  name = "Experience"
+  weight = 3
+  url = "experience/"
+  
+[[menu.main]]
+  name = "Projects"
+  weight = 4
+  url = "projects/"
