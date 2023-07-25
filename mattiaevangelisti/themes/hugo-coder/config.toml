@@ -16,12 +16,10 @@ style = "catppuccin-mocha"
   info = "Data Engineer | MSc Data Science"
   description = "Mattia Evangelisti's personal website"
   keywords = "blog,developer,personal"
-  avatarURL = "images/avatar.jpg"
+  avatarURL = "img/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  faviconSVG = "/img/favicon-new.png"
 
   enableTwemoji = true
 
@@ -39,26 +37,26 @@ style = "catppuccin-mocha"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/madmatti/"
 
 
 [[params.social]]
   name = "LinkedIn"
   icon = "fa fa-linkedin fa-2x"
   weight = 2
-  url = "https://www.linkedin.com/in/johndoe/"
+  url = "https://www.linkedin.com/in/mattiaevangelisti-8654b2217/"
   
 [[params.social]]
   name = "Mail"
   icon = "fa fa-envelope fa-2x"
   weight = 3
-  url = "mailto:john.doe@example.com"
+  url = "mailto:mattia.evangelisti00@gmail.com"
   
 [[params.social]]
   name = "CV"
   icon = "fa fa-file-text fa-2x"
   weight = 4
-  url = "/path-to-your-cv.pdf"
+  url = "/mattiaevangelisti_CV.pdf"
 
 # Menu links
 [[menu.main]]

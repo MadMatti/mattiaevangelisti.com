@@ -1,4 +1,4 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'ME'
+title = "M.E."
 theme = 'hugo-coder'
